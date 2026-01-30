@@ -1,19 +1,25 @@
-site_name: Design & Fabrication Documentation
-site_description: Documentation of digital modeling and fabrication processes
+# =========================
+# SITE INFORMATION
+# =========================
+site_name: Design & Fabrication Process Documentation
+site_description: Daily documentation of digital modeling and fabrication workflows
 site_author: NIYOMUGENGA PROSPER
-site_url: https://example.github.io/fabrication-docs/
+site_url: https://pros-maker.github.io/fabrication-docs/
 
-# Repository (optional but recommended)
-repo_name: fabrication-docs
-repo_url: https://github.com/username/fabrication-docs
+# =========================
+# REPOSITORY INFORMATION
+# =========================
+repo_name: pros-maker/fabrication-docs
+repo_url: https://github.com/pros-maker/fabrication-docs
 edit_uri: edit/main/docs/
 
-# -------------------------
+# =========================
 # THEME CONFIGURATION
-# -------------------------
+# =========================
 theme:
   name: material
-  language: en
+  logo: images/profile.jpeg
+  favicon: images/profile.jpeg
 
   features:
     - navigation.instant
@@ -49,19 +55,38 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-# -------------------------
+# =========================
+# EXTRA CSS (TOP LEVEL!)
+# =========================
+extra_css:
+  - stylesheets/custom.css
+
+# =========================
 # NAVIGATION STRUCTURE
-# -------------------------
+# =========================
 nav:
   - Home: index.md
-  - Digital Modeling: digital-modeling.md
-  - Fabrication Logic: fabrication-logic.md
-  - Prototyping & Iteration: prototyping.md
-  - Reflection: reflection.md
 
-# -------------------------
+  - Documentation Manual:
+      - Overview: manual/index.md
+      - Setup Guide: manual/setup.md
+      - Daily Workflow Guide: manual/daily-workflow.md
+      - Modeling Documentation: manual/modeling.md
+      - Fabrication Documentation: manual/fabrication.md
+
+  - Daily Documentation:
+      - Day 01 – Introduction & Setup: daily/day-01.md
+      - Day 02 – Digital Modeling Basics: daily/day-02.md
+      - Day 03 – Parametric Design: daily/day-03.md
+      - Day 04 – Fabrication Planning: daily/day-04.md
+      - Day 05 – Advanced Parametric Design: daily/day-05.md
+      - Day 06 – Fabrication & Testing: daily/day-06.md
+
+  - Final Reflection: reflection.md
+
+# =========================
 # MARKDOWN EXTENSIONS
-# -------------------------
+# =========================
 markdown_extensions:
   - admonition
   - attr_list
@@ -82,35 +107,41 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# -------------------------
+# =========================
 # PLUGINS
-# -------------------------
+# =========================
 plugins:
   - search
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
+      type: date
 
-# -------------------------
+# =========================
 # EXTRA CONFIGURATION
-# -------------------------
+# =========================
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/username
+      link: https://github.com/pros-maker
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/username
+      link: https://linkedin.com/in/niyomugenga-prosper
+
+  profile:
+    name: NIYOMUGENGA PROSPER
+    image: images/profile.jpeg
+    bio: Design & Fabrication Documentation
 
   generator: false
 
-# -------------------------
-# WATCH (AUTO RELOAD)
-# -------------------------
+# =========================
+# WATCH (LIVE RELOAD)
+# =========================
 watch:
   - docs
 
-# -------------------------
+# =========================
 # COPYRIGHT
-# -------------------------
+# =========================
 copyright: |
   © 2026 NIYOMUGENGA PROSPER — Design & Fabrication Documentation
