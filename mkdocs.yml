@@ -1,0 +1,116 @@
+site_name: Design & Fabrication Documentation
+site_description: Documentation of digital modeling and fabrication processes
+site_author: NIYOMUGENGA PROSPER
+site_url: https://example.github.io/fabrication-docs/
+
+# Repository (optional but recommended)
+repo_name: fabrication-docs
+repo_url: https://github.com/username/fabrication-docs
+edit_uri: edit/main/docs/
+
+# -------------------------
+# THEME CONFIGURATION
+# -------------------------
+theme:
+  name: material
+  language: en
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - content.images.caption
+    - content.tabs.link
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+    - scheme: slate
+      primary: blue
+      accent: indigo
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
+# -------------------------
+# NAVIGATION STRUCTURE
+# -------------------------
+nav:
+  - Home: index.md
+  - Digital Modeling: digital-modeling.md
+  - Fabrication Logic: fabrication-logic.md
+  - Prototyping & Iteration: prototyping.md
+  - Reflection: reflection.md
+
+# -------------------------
+# MARKDOWN EXTENSIONS
+# -------------------------
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# -------------------------
+# PLUGINS
+# -------------------------
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+# -------------------------
+# EXTRA CONFIGURATION
+# -------------------------
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/username
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/username
+
+  generator: false
+
+# -------------------------
+# WATCH (AUTO RELOAD)
+# -------------------------
+watch:
+  - docs
+
+# -------------------------
+# COPYRIGHT
+# -------------------------
+copyright: |
+  © 2026 NIYOMUGENGA PROSPER — Design & Fabrication Documentation
