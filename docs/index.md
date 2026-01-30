@@ -1,10 +1,10 @@
+# Introduction
+
 <!-- Container: text on left, profile image on right -->
 <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:20px; flex-wrap:wrap;">
 
 <!-- Left text content -->
 <div style="flex:1; min-width:250px;">
-
-# Welcome to my Digital Fabrication and Modeling Documentation Website
 
 Welcome to my <strong>Digital Fabrication and Modeling Documentation Website</strong>, a comprehensive record of my <strong>learning journey throughout the course</strong>. This platform captures my <strong>design decisions</strong>, <strong>technical explorations</strong>, and <strong>fabrication workflows</strong>, reflecting both <strong>conceptual understanding</strong> and <strong>hands-on practice</strong>.  
 
