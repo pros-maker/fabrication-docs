@@ -18,3 +18,23 @@
   border-radius: 4px;
   font-weight: 500;
 }
+/* Center images and make them look like figures */
+.md-typeset img {
+  display: block;
+  margin: 1.2em auto;
+  max-width: 85%;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+/* Figure captions (italic + centered) */
+.md-typeset em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: -0.6em;
+  margin-bottom: 1.5em;
+}
+
