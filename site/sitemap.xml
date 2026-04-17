@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://pros-maker.github.io/fabrication-docs/</loc>
-         <lastmod>2026-01-30</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://pros-maker.github.io/fabrication-docs/daily/day-01/</loc>
-         <lastmod>2026-01-30</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://pros-maker.github.io/fabrication-docs/daily/day-02/</loc>
-         <lastmod>2026-01-30</lastmod>
+         <lastmod>2026-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://pros-maker.github.io/fabrication-docs/daily/day-03/</loc>
+         <lastmod>2026-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://pros-maker.github.io/fabrication-docs/daily/day-04/</loc>
+         <lastmod>2026-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://pros-maker.github.io/fabrication-docs/daily/day-05/</loc>
+         <lastmod>2026-04-17</lastmod>
     </url>
 </urlset>
